@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #130f40;
+  color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 60px;
 }
